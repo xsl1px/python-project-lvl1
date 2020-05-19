@@ -6,3 +6,5 @@
 <img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
 
 <img src='https://travis-ci.org/xsl1px/python-project-lvl1.svg?branch=master'/></a>
+
+[![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)
