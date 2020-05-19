@@ -7,4 +7,3 @@
 
 <img src='https://travis-ci.org/xsl1px/python-project-lvl1.svg?branch=master'/></a>
 
-<img src='https://img.shields.io/badge/style-wemake-000000.svg'/></a>)
