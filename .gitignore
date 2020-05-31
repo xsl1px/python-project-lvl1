@@ -2,3 +2,6 @@ brain_games/.DS_Store
 .DS_Store
 .venv/
 .vscode/
+python-project-lvl1/
+env/
+dist/
