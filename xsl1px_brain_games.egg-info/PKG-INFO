@@ -1,6 +1,6 @@
 Metadata-Version: 1.2
 Name: xsl1px-brain-games
-Version: 0.1.0
+Version: 0.1.2
 Summary: UNKNOWN
 Home-page: UNKNOWN
 Author: Pavel Grigoryev
@@ -8,4 +8,4 @@ Author-email: tipaslish@inbox.ru
 License: UNKNOWN
 Description: UNKNOWN
 Platform: UNKNOWN
-Requires-Python: >=3.8,<4.0
+Requires-Python: >=3.6,<4.0

@@ -1,10 +1,11 @@
+"""Main function script."""
+
 from brain_games.game import run
 
 
 def main():
+    """Run main function."""
     run()
-#def qwerty():
-#    print('pizdec')
 
 
 if __name__ == '__main__':
