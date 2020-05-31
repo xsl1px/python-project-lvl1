@@ -8,3 +8,4 @@
 <img src='https://travis-ci.org/xsl1px/python-project-lvl1.svg?branch=master'/></a> <img src='https://img.shields.io/badge/style-wemake-000000.svg'/>
 
 [![asciicast](https://asciinema.org/a/RQwusXbnVQai9JGNn52wmJrES.svg)](https://asciinema.org/a/RQwusXbnVQai9JGNn52wmJrES)
+<a href="https://asciinema.org/a/RQwusXbnVQai9JGNn52wmJrES" target="_blank"><img src="https://asciinema.org/a/RQwusXbnVQai9JGNn52wmJrES.svg" /></a>
