@@ -7,12 +7,6 @@ import prompt
 def run():
     """Run main function."""
 
-    def greet():
-        """Greeting function."""
-        print('Welcome to the Brain Games!')
-        print('Answer "yes" if number even otherwise answer "no".')
-    greet()
-
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
 

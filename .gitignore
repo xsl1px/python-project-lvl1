@@ -3,5 +3,8 @@ brain_games/.DS_Store
 .venv/
 .vscode/
 python-project-lvl1/
+python-project-lvl1-1/
+xsl1px_brain_games.egg-info/
 env/
+env-1/
 dist/
