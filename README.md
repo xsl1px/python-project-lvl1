@@ -10,4 +10,4 @@
 
 <img src='https://img.shields.io/badge/style-wemake-000000.svg'/>
 
-<a href="https://asciinema.org/a/RQwusXbnVQai9JGNn52wmJrES" target="_blank"><img src="https://asciinema.org/a/RQwusXbnVQai9JGNn52wmJrES.png" width="200" height="200"/></a> <a href="https://asciinema.org/a/xE67oEtP4fW7Km0MNl7MfDB1l" target="_blank"><img src="https://asciinema.org/a/xE67oEtP4fW7Km0MNl7MfDB1l.png" width="200" height="200"/></a>
+<a href="https://asciinema.org/a/RQwusXbnVQai9JGNn52wmJrES" target="_blank"><img src="https://asciinema.org/a/RQwusXbnVQai9JGNn52wmJrES.png" width="200" height="200" alt="brain-even"/></a> <a href="https://asciinema.org/a/xE67oEtP4fW7Km0MNl7MfDB1l" target="_blank"><img src="https://asciinema.org/a/xE67oEtP4fW7Km0MNl7MfDB1l.png" width="200" height="200" alt="brain-calc"/></a>
