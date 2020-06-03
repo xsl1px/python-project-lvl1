@@ -19,3 +19,9 @@ def greeting_brain_calc():
     """Greeting brain_calc function."""
     print('Welcome to the Brain Games!')
     print('What is the result of the expression?')
+
+
+def greeting_brain_gcd():
+    """Greeting brain_gcd function."""
+    print('Welcome to the Brain Games!')
+    print('Find the greatest common divisor of given numbers.')
