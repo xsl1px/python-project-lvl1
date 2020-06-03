@@ -1,7 +1,7 @@
 """Main random number script code."""
+
 import random
 import prompt
-
 import operator
 
 
