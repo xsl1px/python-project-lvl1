@@ -10,4 +10,4 @@
 
 <img src='https://img.shields.io/badge/style-wemake-000000.svg'/>
 
-<a href="https://asciinema.org/a/RQwusXbnVQai9JGNn52wmJrES" target="_blank"><img src="https://asciinema.org/a/RQwusXbnVQai9JGNn52wmJrES.svg" /></a>
+<a href="https://asciinema.org/a/RQwusXbnVQai9JGNn52wmJrES" target="_blank"><img src="https://asciinema.org/a/RQwusXbnVQai9JGNn52wmJrES.png" width="400"/></a>
