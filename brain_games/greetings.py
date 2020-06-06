@@ -1,5 +1,4 @@
 """Greeting and name prompt functions."""
-
 import prompt
 
 
@@ -25,3 +24,9 @@ def greeting_brain_gcd():
     """Greeting brain_gcd function."""
     print('Welcome to the Brain Games!')
     print('Find the greatest common divisor of given numbers.')
+
+
+def greeting_brain_progression():
+    """Greeting brain_progression function."""
+    print('Welcome to the Brain Games!')
+    print('What number is missing in the progression?')
