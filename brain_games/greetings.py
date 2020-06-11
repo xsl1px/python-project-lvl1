@@ -26,6 +26,12 @@ def greeting_brain_gcd():
     print('Find the greatest common divisor of given numbers.')
 
 
+def greeting_brain_prime():
+    """Greeting brain_prime function."""
+    print('Welcome to the Brain Games!')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
+
+
 def greeting_brain_progression():
     """Greeting brain_progression function."""
     print('Welcome to the Brain Games!')
