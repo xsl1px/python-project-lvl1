@@ -32,7 +32,7 @@ def run():
                 else:
                     print(f'{answer_input} is wrong answer ;(. Correct answer was {list2[random_list_element]}!')
                     break
-            elif len(list1) < 9:
+            elif len(list1) < 10:
                 continue
         else:
             print('Congratulations, {0}!'.format(name))
