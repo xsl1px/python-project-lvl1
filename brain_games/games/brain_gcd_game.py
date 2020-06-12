@@ -17,8 +17,7 @@ def run():
             print(f'Question: {num1} {num2}')
             gcd = math.gcd(num1, num2)
             answer = prompt.string('Your answer: ')
-
-            if answer == gcd:
+            if int(answer) == gcd:
                 print('Correct!')
                 count += 1
             else:
@@ -26,5 +25,4 @@ def run():
                 break
         else:
             print('Congratulations, {0}!'.format(name))
-
     expression()
