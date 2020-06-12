@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "xsl1px_brain_games"
 version = "0.1.7"
-description = ""
+description = "Hexlet Python project 1"
 authors = ["Pavel Grigoryev <tipaslish@inbox.ru>"]
+repository = "https://test.pypi.org/manage/project/xsl1px-brain-games"
 packages = [
   { include = "brain_games" },
 ]
