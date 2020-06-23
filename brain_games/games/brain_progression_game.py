@@ -14,7 +14,7 @@ def run():
         while count != 3:
             num1 = random.randint(0, 50)  # noqa: S311
             num2 = random.randint(num1 + 1, 150)  # noqa: S311
-            num3 = random.randint(1, 10)  # noqa: S311
+            num3 = random.randint(2, 10)  # noqa: S311
             list1 = []
 
             for number in range(num1, num2, num3):
