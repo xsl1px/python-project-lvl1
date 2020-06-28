@@ -16,9 +16,9 @@ before_install:
 install:
   - make install
 
-#lint:
-#  - make lint
-#  - make test-coverage
+lint:
+  - make lint
+  - make test-coverage
   
 before_script:
 - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
@@ -26,9 +26,9 @@ before_script:
 - ./cc-test-reporter before-build
 
 script:
-  - make lint
+  #- make lint
   - make check
-  - make test-coverage
+ # - make test-coverage
   
 
 after_script:
