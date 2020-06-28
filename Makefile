@@ -7,4 +7,4 @@ lint:
 	
 check:	selfcheck test script
 
-.PHONY: install test lint selfcheck check build
+.PHONY: install test script selfcheck check build
