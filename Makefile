@@ -5,6 +5,6 @@ install:
 lint:
 	poetry run flake8 brain_games
 	
-check:	selfcheck test script
+check:	selfcheck test lint
 
 .PHONY: install test script selfcheck check build
