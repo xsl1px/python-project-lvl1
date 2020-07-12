@@ -8,3 +8,4 @@ xsl1px_brain_games.egg-info/
 env/
 env-1/
 dist/
+__pycache__
