@@ -1,7 +1,7 @@
 # python-project-lvl1
 <a href="https://codeclimate.com/github/xsl1px/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/e4078744974064510193/maintainability" /></a>
 
-<a href="https://codeclimate.com/github/xsl1px/python-project-lvl1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/e4078744974064510193/test_coverage" /></a>
+#<a href="https://codeclimate.com/github/xsl1px/python-project-lvl1/test_coverage"><img #src="https://api.codeclimate.com/v1/badges/e4078744974064510193/test_coverage" /></a>
 
 <a href="https://travis-ci.org/github/xsl1px/python-project-lvl1">
 <img src='https://travis-ci.org/xsl1px/python-project-lvl1.svg?branch=master'/></a> 
