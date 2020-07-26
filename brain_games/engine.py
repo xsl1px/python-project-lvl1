@@ -3,6 +3,7 @@ import prompt
 
 string_question = 'Question: '
 
+
 def play(game):
     """Engine's welcome code."""  # noqa: DAR101
     print('Welcome to the Brain Games!')
@@ -13,7 +14,6 @@ def play(game):
     count = 0
 
     while count != 3:
-        string_question = 'Question: '
         answer, question = game.play_game()
         print(question)
         user_answer = prompt.string('Your answer: ')
