@@ -1,18 +1,20 @@
 """Greeting and name prompt functions."""
 import prompt
 
+string_question = 'Question: '
 
-def start(game_name):
+def play(game):
     """Engine's welcome code."""  # noqa: DAR101
     print('Welcome to the Brain Games!')
-    print(game_name.description)
+    print(game.description)
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
 
     count = 0
 
     while count != 3:
-        answer, question = game_name.game()
+        string_question = 'Question: '
+        answer, question = game.play_game()
         print(question)
         user_answer = prompt.string('Your answer: ')
         if user_answer == answer:

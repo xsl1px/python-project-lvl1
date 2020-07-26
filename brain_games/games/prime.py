@@ -1,21 +1,20 @@
 """Main number progression script code."""
 import random
+from brain_games.engine import string_question
 
 description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def game():
+def play_game():
     """Game logic function."""  # noqa: DAR201
-    def isprime(num):
-        div = 2
-        while num % div != 0:
-            div += 1
-        return div == num
-
     num = random.randint(1, 100)  # noqa: S311
-    question = f'Question: {num}'
+    div = 2
+    while num % div != 0:
+        div += 1
 
-    if isprime(num) is True:
+    question = f'{string_question}{num}'
+
+    if div == num:
         answer = 'yes'
     else:
         answer = 'no'

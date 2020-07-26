@@ -1,30 +1,32 @@
 """Main number progression script code."""
 import random
+import copy
+from brain_games.engine import string_question
 
 description = 'What number is missing in the progression?'
 
 
-def game():
+def play_game():
     """Game logic function."""  # noqa: DAR201
-    list1 = []
+    list = []
 
-    while len(list1) < 10:
+    while len(list) < 10:
 
         num1 = random.randint(0, 1)  # noqa: S311
         num2 = random.randint(num1 + 1, 150)  # noqa: S311
         num3 = random.randint(2, 10)  # noqa: S311
 
         for number in range(num1, num2, num3):
-            list1.append(number)
+            list.append(number)
 
-        if len(list1) < 10:
-            list1 = []
+        if len(list) < 10:
+            list = []
             continue
 
-        list1 = list1[0:10]  # noqa: WPS349
+        list = list[0:10]  # noqa: WPS349
         random_list_element = random.randint(0, 10)  # noqa: S311
-        list2 = list(list1)
-        list1[random_list_element] = str('..')
-        question = (('Question: ' + '{} ' * len(list1)).format(*list1))  # noqa: WPS336, P103
-        answer = str(list2[random_list_element])
+        list_copy = copy.copy(list)
+        list[random_list_element] = str('..')
+        question = ((string_question + '{} ' * len(list)).format(*list))  # noqa: WPS336, P103
+        answer = str(list_copy[random_list_element])
         return answer, question

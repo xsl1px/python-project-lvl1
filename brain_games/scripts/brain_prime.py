@@ -1,12 +1,12 @@
 """Main function script."""
 
-from brain_games.engine import start
-from brain_games.games import brain_prime_game
+from brain_games.engine import play
+from brain_games.games import prime
 
 
 def main():
     """Run main function."""
-    start(brain_prime_game)
+    play(prime)
 
 
 if __name__ == '__main__':
