@@ -6,7 +6,7 @@ DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
 def logic():
-    """Game logic function."""  # noqa: DAR201
+    """Game logic function."""
     num1 = random.randint(1, 100)  # noqa: S311
     num2 = random.randint(1, 100)  # noqa: S311
     question = f'{num1} {num2}'

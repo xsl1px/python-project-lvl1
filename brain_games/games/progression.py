@@ -6,7 +6,7 @@ DESCRIPTION = 'What number is missing in the progression?'
 
 
 def logic():
-    """Game logic function."""  # noqa: DAR201
+    """Game logic function."""
     list_progression = []
 
     while len(list_progression) < 10:
@@ -18,7 +18,7 @@ def logic():
         for number in range(num1, num2, num3):
             list_progression.append(number)
 
-        len_progression_max = 10 # recommended progression lenght
+        len_progression_max = 10  # recommended progression lenght
 
         if len(list_progression) < len_progression_max:
             list_progression = []
