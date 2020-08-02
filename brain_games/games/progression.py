@@ -1,12 +1,11 @@
 """Main number progression script code."""
 import random
 import copy
-from brain_games.engine import string_question
 
-description = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
-def play_game():
+def logic():
     """Game logic function."""  # noqa: DAR201
     list_progression = []
 
@@ -19,7 +18,9 @@ def play_game():
         for number in range(num1, num2, num3):
             list_progression.append(number)
 
-        if len(list_progression) < 10:
+        len_progression_max = 10 # recommended progression lenght
+
+        if len(list_progression) < len_progression_max:
             list_progression = []
             continue
 
@@ -27,6 +28,6 @@ def play_game():
         random_list_element = random.randint(0, 10)  # noqa: S311
         list_copy = copy.copy(list_progression)
         list_progression[random_list_element] = str('..')
-        question = ((string_question + '{} ' * len(list_progression)).format(*list_progression))  # noqa: WPS336, P103
+        question = (('{} ' * len(list_progression)).format(*list_progression))  # noqa: WPS336, P103
         answer = str(list_copy[random_list_element])
         return answer, question

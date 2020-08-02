@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "xsl1px_brain_games"
-version = "0.1.12"
+version = "0.1.14"
 description = "Hexlet Python project lvl1"
 authors = ["Pavel Grigoryev <tipaslish@inbox.ru>"]
 repository = "https://test.pypi.org/project/xsl1px-brain-games/"
@@ -23,6 +23,7 @@ brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
+
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"

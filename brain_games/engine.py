@@ -7,19 +7,19 @@ string_question = 'Question: '
 def play(game):
     """Engine's welcome code."""  # noqa: DAR101
     print('Welcome to the Brain Games!')
-    print(game.description)
+    print(game.DESCRIPTION)
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
 
-    count = 0
+    right_answers_count = 3
 
-    while count != 3:
-        answer, question = game.play_game()
-        print(question)
+    while right_answers_count != 0:
+        answer, question = game.logic()
+        print(string_question + question)
         user_answer = prompt.string('Your answer: ')
         if user_answer == answer:
             print('Correct!')
-            count += 1
+            right_answers_count -= 1
         else:
             print(
                 """'{ua}' is wrong answer ;(. Correct answer was '{ca}'
@@ -27,5 +27,4 @@ def play(game):
             )
             print("Let's try again, {n}!".format(n=name))
             break
-    if count == 3:
-        print('Congratulations, {n}!'.format(n=name))
+    print('Congratulations, {n}!'.format(n=name))
