@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "xsl1px_brain_games"
-version = "0.1.14"
+version = "0.1.15"
 description = "Hexlet Python project lvl1"
 authors = ["Pavel Grigoryev <tipaslish@inbox.ru>"]
 repository = "https://test.pypi.org/project/xsl1px-brain-games/"
@@ -17,12 +17,12 @@ wemake-python-styleguide = "^0.14.0"
 flake8 = "^3.8.2"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
-brain-even = "brain_games.scripts.brain_even:main"
-brain-calc = "brain_games.scripts.brain_calc:main"
-brain-gcd = "brain_games.scripts.brain_gcd:main"
-brain-progression = "brain_games.scripts.brain_progression:main"
-brain-prime = "brain_games.scripts.brain_prime:main"
+brain-games = "brain_games.scripts.brain_games:start"
+brain-even = "brain_games.scripts.brain_even:start"
+brain-calc = "brain_games.scripts.brain_calc:start"
+brain-gcd = "brain_games.scripts.brain_gcd:start"
+brain-progression = "brain_games.scripts.brain_progression:start"
+brain-prime = "brain_games.scripts.brain_prime:start"
 
 [build-system]
 requires = ["poetry>=0.12"]

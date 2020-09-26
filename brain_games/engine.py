@@ -11,15 +11,15 @@ def play(game):
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
 
-    right_answers_count = 3
+    correct_answers_count = 3
 
-    while right_answers_count != 0:
-        answer, question = game.logic()
+    while correct_answers_count != 0:
+        answer, question = game.get_result()
         print(string_question + question)
         user_answer = prompt.string('Your answer: ')
         if user_answer == answer:
             print('Correct!')
-            right_answers_count -= 1
+            correct_answers_count -= 1
         else:
             print(
                 """'{ua}' is wrong answer ;(. Correct answer was '{ca}'
